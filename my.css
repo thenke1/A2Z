@@ -1,0 +1,83 @@
+/*
+	Name	:Trudi Henke
+	Class	:1300-001
+	Assign#	:17
+	Due	:Dec 17, 2011
+
+	Honor Pledge: On my honor as a student of the University
+	   of Nebraska at Omaha, I have neither given nor
+	   received unauthorized help on this homework
+	   assignment.
+
+	NAME:  Trudi Henke
+	NUID:  598
+	EMAIL: thenke@unomaha.edu
+
+	Partners: None
+	
+*/
+
+/* This modifies how elements are displayed */
+
+     body
+        {
+        border: 0px; margin: 0px; padding: 0px;
+        }
+     
+    .banner
+        {
+       position: fixed; top: 0px; left: 0px; bottom: 0px; padding: 0px; border-style: solid; color: black;
+        background-color: #ff9933; width: 1000px; height: 200px; 
+        }
+    a:link 
+        {
+        font-weight: 600; color: black;
+        }
+    a:hover 
+        {
+        color: black; font-weight: 900;
+        }
+     p 
+        {
+        margin-left: 135px; font-family: "arial", sans-serif; max-width: 800px;
+        }
+     img.pic 
+        {
+        margin-top: 0px; border: 1px solid white;
+        }
+     img.pic2
+       {
+       padding: 10px; padding-left: 280px; border: 0px solid #ff9933;
+       }
+     img.gallery
+       {
+       border: 2px solid #ff9933;
+       }
+     h2
+       {
+       margin-top: 220px; margin-left: 135px; max-width: 800px; font-family: "arial", sans-serif; color: #ff9933;
+       }
+     div.form
+       {
+       margin-top: -20px; margin-left: 135px; max-width: 790px; background-color: #C0C0C0; padding: 40px;
+       }
+     table
+       {
+       position: fixed; width: 118px; margin-right: 0px;
+       }
+     tr
+       {
+       font-family: "arial", sans-serif; text-align: left; background-color: #ff9933;
+       }
+     th
+       {
+       padding: 10px; border-style: solid; border-color: black;
+       }
+     #page
+       {
+       color: black; font-weight: bold;
+       }
+     #phone
+       {
+       font-weight: bold;
+       }
