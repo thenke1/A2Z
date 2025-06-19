@@ -1,0 +1,126 @@
+    <!--
+	Name	:Trudi Henke
+	Class	:1300-001
+	Assign#	:17
+	Due	:Dec. 14, 2011
+
+	Honor Pledge: On my honor as a student of the University
+	   of Nebraska at Omaha, I have neither given nor
+	   received unauthorized help on this homework
+	   assignment.
+
+	NAME:  Trudi Henke
+	NUID:  598
+	EMAIL: thenke@unomaha.edu
+
+	Partners: None
+
+	A page for contacting A2Z Roofing.
+	
+     -->
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>A2Z Roofing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="my.css" />
+  </head>
+<body>
+      <!-- Will display a banner across the top of the page -->
+     <div class="banner">
+        <a href="http://blizzard.ist.unomaha.edu/~thenke/project/"><img class="img.pic" src="images/A2Z_logo.JPG" alt="A2Z logo" title="A2Z Roofing for all you roofing needs." height="198" width="400"/></a>
+        <img class="pic2" src="images/images2.jpg" alt="Roofer photo" title="A2Z Roofing photo" height="180" width="300"/>
+        </div>
+      <!-- Navagation buttons -->
+        <table>
+            <tr>
+            <th><a href="http://blizzard.ist.unomaha.edu/~thenke/project/">Home</a></th>
+            </tr>
+            <tr>
+            <th><a href="http://blizzard.ist.unomaha.edu/~thenke/project/gallery.html">Gallery</a></th>
+            </tr>
+            <tr>
+            <th><a href="http://blizzard.ist.unomaha.edu/~thenke/project/products.html">Products</a></th>
+            </tr>
+            <tr>
+            <th><a href="http://blizzard.ist.unomaha.edu/~thenke/project/about_us.html">About Us</a></th>
+            </tr>
+            <tr>
+            <th><a href="http://blizzard.ist.unomaha.edu/~thenke/project/contact.html">Contact Us</a></th>
+            </tr>
+            <tr>
+            <th id="page">Request a Free Quote</th>
+            </tr>
+        </table>
+       
+        <h2>
+        For a Free Quote!
+        </h2>
+
+        <!-- This is the start of the free quote form. -->
+        <div class="form">
+        <form action="cgi.cgi" method="post">
+        Aproximate age of your roof?<br />
+        0 to 3 years
+        <input type="checkbox" name="roof_years" value="0_3years" />
+        4 to 7 years
+        <input type="checkbox" name="roof_years" value="4_7years" />
+        8 to 11 years
+        <input type="checkbox" name="roof_years" value="8_11years" />
+        12 to 15 years
+        <input type="checkbox" name="roof_years" value="12_15years" />
+        over 15 years
+        <input type="checkbox" name="roof_years" value="older_15yrs" />
+        <br />
+        Approximate date you would like to have this completed by?<br />
+        <input type="text" name="service_time" size="40" /><br />
+        Approximately how many square feet is you roof?<br />
+        <input type="text" name="sq_ft" size="40" /><br />
+        How did you hear about us?<br />
+        <select name="hear_about">
+       <option value="Yellow_Pgs">Yellow Pages</option>
+       <option value="Newpaper">Newspaper</option>
+       <option value="Former_Cust">Former Customer</option>
+       <option value="Mailer">Mailer/Flier</option>
+       <option value="Website">Website Search</option>
+       <option value="Other">Other</option>
+       </select><br />
+       First Name:<br />
+       <input type="text" name="name_first" size="40" /><br />
+       Last Name:<br />
+       <input type="text" name="name_last" size="40" /><br />
+       Address:<br />
+       <input type="text" name="address" size="40" /><br />
+       City:<br />
+       <input type="text" name="city" size="40" /><br />
+       State:<br />
+       <input type="text" name="State" size="40" /><br />
+       Zip code:<br />
+       <input type="text" name="Zip_code" size="40" /><br />
+       Phone Number:<br />
+       <input type="text" name="Phone_num" size="40" /><br />
+       E-mail:<br />
+       <input type="text" name="email" size="40" /><br />
+       Comments:<br />
+       <textarea name="comment" rows="5" cols="31">***Please place any additional comments here***</textarea><br/><br />
+        
+        <input type="submit" name="submit" value="Submit"/>
+        <input type="reset" name="reset" value="reset" />
+        </form>
+        </div>
+     <div>
+        <p><a href="http://validator.w3.org/check?uri=referer"><img
+              src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid
+           XHTML 1.0 Transitional" height="31" width="88" /></a>
+        </p>
+        <p><a href="http://jigsaw.w3.org/css-validator/">
+        <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!" /></a>
+        </p>
+     </div>
+</body>
+</html>
