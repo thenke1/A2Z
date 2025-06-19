@@ -69,7 +69,7 @@ else
 	{
 		print p(b({-style=>'Color: red;'}, "Please enter an E-mail address, Thank you!"));
 	}
-	print p(a({-href=>"http://blizzard.ist.unomaha.edu/~thenke/project/quote.html", -style=>'Color: blue;'}, "Go back and fill in the field(s)!"));
+	print p(a({-href=>"https://thenke1.github.io/A2Z/quote.html", -style=>'Color: blue;'}, "Go back and fill in the field(s)!"));
 }
 print p(a({-href=>"http://jigsaw.w3.org/css-validator/check/referer"}, img({-style=>'width: 88px; height: 31px;', -src=>"http://jigsaw.w3.org/css-validator/images/vcss", -alt=>"Valid CSS!"})));
 print p(a({-href=>"http://validator.w3.org/check?uri=referer"}, img({-src=>"http://www.w3.org/Icons/valid-xhtml10", -alt=>"Valid XHTML 1.0 Transitional", -style=>'height: 31px; width: 88px;'})));
